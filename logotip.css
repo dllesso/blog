@@ -1,0 +1,166 @@
+ 
+ .cvadrik
+ {
+	 width: 40px;
+     height: 40px;
+     background-color: yellow;
+	 background-repeat:no-repeat;
+	 transform: rotate(115deg);
+	 -webkit-border-radius: 10px; /*скругляем углы*/
+        border-radius: 10px;
+		
+		animation-name: sp; /*прописываем имя анимации*/
+
+animation-duration: 7s; /*время вращения 7 сек*/
+
+animation-timing-function: liner; /* параметры движения фигуры*/
+
+animation-delay: 1s; /*время задержки анимации*/
+
+animation-iteration-count: infinite; /*зацикливаем анимацию. заместо инфинити можно поставить количество циклов*/
+
+animation-direction: reverse; /*вращение по часовой стрелке против - reverse по очереди - alternate */
+ }
+ 
+ .cvadrik1
+ {
+	 width: 40px;
+     height: 40px;
+     background-color: green;
+	 transform: rotate(0deg);
+	 background-repeat:no-repeat;
+	 -webkit-border-radius: 10px; /*скругляем углы*/
+        border-radius: 10px;
+		
+		animation-name: sp; /*прописываем имя анимации*/
+
+animation-duration: 7s; /*время вращения 7 сек*/
+
+animation-timing-function: liner; /* параметры движения фигуры*/
+
+animation-delay: 1s; /*время задержки анимации*/
+
+animation-iteration-count: infinite; /*зацикливаем анимацию. заместо инфинити можно поставить количество циклов*/
+
+animation-direction: reverse; /*вращение по часовой стрелке против - reverse по очереди - alternate */
+ }
+ .cvadrik2
+ {
+	 width: 40px;
+     height: 40px;
+     background-color: red;
+	 background-repeat:no-repeat;
+	 transform: rotate(20deg);
+	 -webkit-border-radius: 10px; /*скругляем углы*/
+        border-radius: 10px;
+		
+		animation-name: sp; /*прописываем имя анимации*/
+
+animation-duration: 7s; /*время вращения 7 сек*/
+
+animation-timing-function: liner; /* параметры движения фигуры*/
+
+animation-delay: 1s; /*время задержки анимации*/
+
+animation-iteration-count: infinite; /*зацикливаем анимацию. заместо инфинити можно поставить количество циклов*/
+
+animation-direction: reverse; /*вращение по часовой стрелке против - reverse по очереди - alternate */
+ }
+ .cvadrik3
+ {
+	 width: 40px;
+     height: 40px;
+     background-color: blue;
+	 transform: rotate(80deg);
+	 -webkit-border-radius: 10px; /*скругляем углы*/
+        border-radius: 10px;
+		
+		animation-name: sp; /*прописываем имя анимации*/
+
+animation-duration: 7s; /*время вращения 7 сек*/
+
+animation-timing-function: liner; /* параметры движения фигуры*/
+
+animation-delay: 1s; /*время задержки анимации*/
+
+animation-iteration-count: infinite; /*зацикливаем анимацию. заместо инфинити можно поставить количество циклов*/
+
+animation-direction: reverse; /*вращение по часовой стрелке против - reverse по очереди - alternate */
+ }
+ .cvadrik4
+ {
+	 width: 40px;
+     height: 40px;
+     background-color: gray;
+	 transform: rotate(80deg);
+	 -webkit-border-radius: 10px; /*скругляем углы*/
+        border-radius: 10px;
+		
+		animation-name: sp; /*прописываем имя анимации*/
+
+animation-duration: 7s; /*время вращения 7 сек*/
+
+animation-timing-function: liner; /* параметры движения фигуры*/
+
+animation-delay: 1s; /*время задержки анимации*/
+
+animation-iteration-count: infinite; /*зацикливаем анимацию. заместо инфинити можно поставить количество циклов*/
+
+animation-direction: reverse; /*вращение по часовой стрелке против - reverse по очереди - alternate */
+ }
+
+ .cvadrik5
+ {
+	 width: 40px;
+     height: 40px;
+     background-color: orange;
+	 text: P;
+	 transform: rotate(80deg);
+	 -webkit-border-radius: 10px; /*скругляем углы*/
+        border-radius: 10px;
+		
+		animation-name: sp; /*прописываем имя анимации*/
+
+animation-duration: 7s; /*время вращения 7 сек*/
+
+animation-timing-function: liner; /* параметры движения фигуры*/
+
+animation-delay: 1s; /*время задержки анимации*/
+
+animation-iteration-count: infinite; /*зацикливаем анимацию. заместо инфинити можно поставить количество циклов*/
+
+animation-direction: reverse; /*вращение по часовой стрелке против - reverse по очереди - alternate */
+ }
+  .crug
+ {
+	 width: 30px;
+     height: 30px;
+	 background-image:url('s.jpg');
+	 background-repeat:no-repeat;
+     background-color: yellow;
+	 transform: rotate(0deg);
+	 border-radius: 50%; /*скругляем углы*/
+        border-radius: 50%
+ }
+@keyframes sp /*задаем анимацию вращение фигуры кубика название произвольное берем sp - вращение */
+{
+0% {
+	transform: rotate(0deg);
+	}
+	
+100% {
+	transform: rotate(360deg);
+	}
+}
+
+.imgblock span {
+    /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+    background: #222;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 18px;
+    padding: 3px 5px;
+} 
