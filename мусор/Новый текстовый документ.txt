@@ -1,5 +1,0 @@
-. "ORDER BY `id` DESC" - упорядочить по убыванию
-
-
-//<em>никнейм:</em><input type="text" name = "nickname" class="form_control"  placeholder ="никнейм" value=<?php echo $_POST['nickname'];?>>форма никнейм и мыло
-//<em>мыло:</em><input type="text" name = "email" class="form_control" placeholder ="моя почта" value=<?php echo $_POST['email'];?>>
